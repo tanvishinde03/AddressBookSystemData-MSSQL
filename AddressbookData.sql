@@ -55,3 +55,19 @@ SELECT * FROM AddressBook_DB WHERE City = 'Pune' ORDER BY FirstName
 --UC9 
 ALTER TABLE AddressBook_DB ADD AddressBookType VARCHAR(50)
 ALTER TABLE AddressBook_DB ADD AddressBookName VARCHAR(50)
+
+UPDATE AddressBook_DB
+SET AddressBookType = 'Friend'
+WHERE City = 'Mumbai'
+
+UPDATE AddressBook_DB
+SET AddressbookType = 'Profession'
+WHERE City = 'Pune'
+
+UPDATE AddressBook_DB
+SET AddressbookType = 'Other'
+
+UPDATE AddressBook_DB
+SET AddressbookName = FirstName + LastName
+
+
