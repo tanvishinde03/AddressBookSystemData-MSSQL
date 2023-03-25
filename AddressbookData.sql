@@ -37,3 +37,7 @@ UPDATE AddressBook_DB SET Email = 'kapoor.gmail.com' WHERE FirstName = 'Arjun'
 DELETE FROM AddressBook_DB WHERE PersonId = '3'
 DELETE FROM AddressBook_DB WHERE PersonId = '4'
 DELETE FROM AddressBook_DB WHERE FirstName = 'Ars'
+
+--UC6
+SELECT * FROM AddressBook_DB WHERE City = 'Pune'
+SELECT * FROM AddressBook_DB WHERE State = 'Maharastra'
