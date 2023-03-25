@@ -31,3 +31,9 @@ UPDATE AddressBook_DB SET FirstName = 'Arsheen ' WHERE LastName = 'Khan'
 UPDATE AddressBook_DB SET Zip = 411044 WHERE FirstName = 'Ars'
 UPDATE AddressBook_DB SET PhoneNumber = 8378801345 WHERE FirstName = 'Aarti'
 UPDATE AddressBook_DB SET Email = 'kapoor.gmail.com' WHERE FirstName = 'Arjun'
+
+
+--UC5 
+DELETE FROM AddressBook_DB WHERE PersonId = '3'
+DELETE FROM AddressBook_DB WHERE PersonId = '4'
+DELETE FROM AddressBook_DB WHERE FirstName = 'Ars'
