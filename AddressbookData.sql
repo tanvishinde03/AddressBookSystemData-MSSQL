@@ -50,4 +50,5 @@ SELECT COUNT (*) FROM AddressBook_DB WHERE State = 'Maharastra' GROUP BY State
 
 --UC8 
 SELECT * FROM AddressBook_DB WHERE City = 'Mumbai' ORDER BY FirstName
+SELECT * FROM AddressBook_DB WHERE City = 'Pune' ORDER BY FirstName
 
