@@ -25,3 +25,9 @@ VALUES
 ('Ars','Khan','GharKul','Pune','Maharastra',411043,1234098765,'arsheen.khan.@gmail.com'),
 ('Arjun','Kapoor','Bandra','Mumbai','Maharastra',400073,4567890123,'arjun.kapoor.@gmail.com')
 
+--UC4
+UPDATE AddressBook_DB SET LastName = 'Kapoor' WHERE FirstName = 'Tanu'
+UPDATE AddressBook_DB SET FirstName = 'Arsheen ' WHERE LastName = 'Khan'
+UPDATE AddressBook_DB SET Zip = 411044 WHERE FirstName = 'Ars'
+UPDATE AddressBook_DB SET PhoneNumber = 8378801345 WHERE FirstName = 'Aarti'
+UPDATE AddressBook_DB SET Email = 'kapoor.gmail.com' WHERE FirstName = 'Arjun'
