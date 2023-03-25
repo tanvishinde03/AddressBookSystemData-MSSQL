@@ -74,3 +74,4 @@ SET AddressbookName = FirstName + LastName
 --UC10 
 SELECT AddressBookType, COUNT (AddressBookType) AS NoOfContactPresent FROM AddressBook_DB GROUP BY AddressBookType
 
+SELECT * FROM AddressBook_DB
