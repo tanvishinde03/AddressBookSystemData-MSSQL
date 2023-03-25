@@ -41,3 +41,13 @@ DELETE FROM AddressBook_DB WHERE FirstName = 'Ars'
 --UC6
 SELECT * FROM AddressBook_DB WHERE City = 'Pune'
 SELECT * FROM AddressBook_DB WHERE State = 'Maharastra'
+
+-- UC7 
+SELECT COUNT (*) FROM AddressBook_DB GROUP BY City 
+SELECT COUNT (*) FROM AddressBook_DB GROUP BY State
+SELECT COUNT (*) FROM AddressBook_DB WHERE City = 'Pune' GROUP BY City
+SELECT COUNT (*) FROM AddressBook_DB WHERE State = 'Maharastra' GROUP BY State
+
+--UC8 
+SELECT * FROM AddressBook_DB WHERE City = 'Mumbai' ORDER BY FirstName
+
