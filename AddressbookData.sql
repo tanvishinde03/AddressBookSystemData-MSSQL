@@ -14,3 +14,14 @@ Zip INT NOT NULL,
 PhoneNumber BIGINT NOT NULL,
 Email VARCHAR(50) NOT NULL
 );
+
+SELECT * FROM AddressBook_DB
+
+--UC3
+INSERT INTO AddressBook_DB(FirstName,LastName,Address,City,State,Zip,PhoneNumber,Email)
+VALUES
+('Tanu','Shinde','Pradhikaran','Pune','Maharastra',411044,1234567890,'tanvi.shinde.@gmail.com'),
+('Aarti','Pundalik','Pradhikaran','pune','Maharastra',411044,9876543210,'aarti.pundalik.@gmail.com'),
+('Ars','Khan','GharKul','Pune','Maharastra',411043,1234098765,'arsheen.khan.@gmail.com'),
+('Arjun','Kapoor','Bandra','Mumbai','Maharastra',400073,4567890123,'arjun.kapoor.@gmail.com')
+
