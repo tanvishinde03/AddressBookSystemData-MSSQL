@@ -75,3 +75,8 @@ SET AddressbookName = FirstName + LastName
 SELECT AddressBookType, COUNT (AddressBookType) AS NoOfContactPresent FROM AddressBook_DB GROUP BY AddressBookType
 
 SELECT * FROM AddressBook_DB
+
+--UC11
+INSERT INTO AddressBook_DB(FirstName,LastName,Address,City,State,Zip,PhoneNumber,Email,AddressBookType,AddressBookName)
+VALUES ('Jay','Ria','Nitin Pisal','Pune','Maharastra',411400,1234509876,'abc.gmail.com','Friend','JayRia'),
+('Deep','Piya','Anil Shinde','Mumbai','Maharastra',400073,1234512345,'anil.gmail.com','Family','DeepPiya')
